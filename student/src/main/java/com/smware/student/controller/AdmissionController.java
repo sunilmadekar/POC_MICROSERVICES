@@ -1,9 +1,7 @@
 package com.smware.student.controller;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,13 +20,11 @@ public class AdmissionController {
 	static {
 		schooDB = new HashMap<Integer, StudentPojo>();
 
-		List<StudentPojo> lst = new ArrayList<StudentPojo>();
 		StudentPojo std = new StudentPojo("Sajal", "Class IV",101);
 		schooDB.put(std.getStudentId(), std);
 		std = new StudentPojo("Lokesh", "Class V",102);
 		schooDB.put(std.getStudentId(), std);
 
-		lst = new ArrayList<StudentPojo>();
 		std = new StudentPojo("Kajal", "Class III",103);
 		schooDB.put(std.getStudentId(), std);
 		std = new StudentPojo("Sukesh", "Class VI",104);
