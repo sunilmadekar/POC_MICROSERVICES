@@ -20,7 +20,7 @@ public class CollegeController {
 
 	static {
 
-		CollegePojo std = new CollegePojo("RBM", "Chandgad","1009");
+		CollegePojo std = new CollegePojo("RBM", "Chandgad","1001");
 		schooDB.put(std.getCollegeId(), std);
 		std = new CollegePojo("Shivaray", "Kolhapur","10010");
 		schooDB.put(std.getCollegeId(), std);
