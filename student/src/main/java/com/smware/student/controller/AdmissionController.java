@@ -20,7 +20,7 @@ public class AdmissionController {
 	static {
 		schooDB = new HashMap<Integer, StudentPojo>();
 
-		StudentPojo std = new StudentPojo("Sajal", "Class IV",109);
+		StudentPojo std = new StudentPojo("Sajal", "Class IV",101);
 		schooDB.put(std.getStudentId(), std);
 		std = new StudentPojo("Lokesh", "Class V",102);
 		schooDB.put(std.getStudentId(), std);
