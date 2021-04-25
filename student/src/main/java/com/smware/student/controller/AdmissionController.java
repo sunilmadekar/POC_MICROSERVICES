@@ -25,7 +25,7 @@ public class AdmissionController {
 		std = new StudentPojo("Lokesh", "Class V",102);
 		schooDB.put(std.getStudentId(), std);
 
-		std = new StudentPojo("Kajal", "Class III",103);
+		std = new StudentPojo("Kajal", "Class III",109);
 		schooDB.put(std.getStudentId(), std);
 		std = new StudentPojo("Sukesh", "Class VI",104);
 		schooDB.put(std.getStudentId(), std);
